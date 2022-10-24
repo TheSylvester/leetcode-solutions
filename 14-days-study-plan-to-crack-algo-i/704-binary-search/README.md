@@ -26,3 +26,7 @@ var search = function(nums, target) {
     return -1;
 };
 ```
+### Solution Explanation:
+
+1. Binary search uses a "high" and a "low" index pointer, starting at the beginning and end of the data set (string, array, etc) in order to calculate a new middle.
+2. Each loop, check the new middle to see which side of the test equation middle is on, and then move low or high to above / below middle to disqualify parts of the data set
