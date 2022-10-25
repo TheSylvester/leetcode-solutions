@@ -26,3 +26,7 @@ var searchInsert = function(nums, target) {
     return low;
 };
 ```
+
+### Solution:
+
+- `while (low < high)` because if `low === high` then you've found the target value or the place where it should be
